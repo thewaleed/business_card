@@ -12,10 +12,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       rel="stylesheet"
     />
-    <link
-      href="https://thewaleed.github.io/business_card/style.css"
-      rel="stylesheet"
-    />
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
     <div class="business-card" onclick="this.classList.toggle('hover')">
@@ -82,12 +79,20 @@
                   >GitHub</a
                 >
               </li>
-              <button
-                class="custom-btn btn-11"
-                href="https://github.com/thewaleed/business_card/blob/main/vcard.vcf"
-              >
-                ajouter aux contacts
-                <div class="dot"></div>
+              <!-- From Uiverse.io by vinodjangid07 -->
+              <button onclick="location.href='vcard.vcf'" class="Btn">
+                <svg
+                  class="svgIcon"
+                  viewBox="0 0 384 512"
+                  height="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
+                  ></path>
+                </svg>
+                <span class="icon2"></span>
+                <span class="tooltip">ajouter aux contacts</span>
               </button>
               <!-- <li>
                 <i class="fab fa-reddit"></i>
